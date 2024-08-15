@@ -8,7 +8,7 @@ from schema import ChatMessage, UserInput, StreamInput, Feedback
 class AgentClient:
     """Client for interacting with the agent service."""
 
-    def __init__(self, base_url: str = "http://localhost:80"):
+    def __init__(self, base_url: str = "http://localhost:8011"):
         """
         Initialize the client.
 
