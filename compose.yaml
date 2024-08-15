@@ -28,7 +28,7 @@ services:
     depends_on:
       - agent_service
     environment:
-      - AGENT_URL=http://agent_service
+      - AGENT_URL=http://agent_service:8011
     develop:
       watch:
         - path: client/
