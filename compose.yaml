@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile.service
     ports:
-      - "80:80"
+      - "8011:8011"
     env_file:
       - .env
     develop:
